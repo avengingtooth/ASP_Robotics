@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 5% 2% 5%;
+}
+
+#links li{
+    /* margin-left: 5%; */
+    white-space: nowrap
+}
+
+#links{
+    margin: auto;
+    margin-right: 0;
+    width: fit-content;
+    padding: 0;
+    width: 40%;
+    align-items: right;
+}
+
+#navLogo{
+    width: 5%;
+}
